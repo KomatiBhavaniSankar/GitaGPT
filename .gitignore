@@ -1,0 +1,31 @@
+# Python Virtual Environment
+# Replace 'gita/' with 'venv/' if you named it differently
+gita/
+venv/
+
+# Python Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE/Editor Configuration
+.vscode/
+.idea/
+
+# Streamlit Configuration
+.streamlit/
+
+# Ollama / Large Model Files
+# This prevents uploading the multi-gigabyte model files
+*.gguf
+*.bin
+
+# Environment Variables
+.env
+
+# Log files
+*.log
+
+# TensorFlow Hub Cache (optional, as it's often outside the project folder)
+tfhub_modules/
